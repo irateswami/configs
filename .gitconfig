@@ -1,0 +1,11 @@
+[user]
+	email = bryanenglish@protonmail.com
+	name = Bryan English
+[alias]
+    st = status
+    cm = commit -m
+    cb = checkout -b
+    co = checkout
+    aa = add .
+    ai = add --interactive
+
