@@ -98,6 +98,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias suua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias xc='xclip -sel clip <'
+alias v='nvim'
 
 export GOPATH=/home/irateswami/go
 export GOBIN=$GOPATH/bin

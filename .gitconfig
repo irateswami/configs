@@ -8,4 +8,8 @@
     co = checkout
     aa = add .
     ai = add --interactive
+    af = add -f
+    ri = rebase -i
+    mt = ls-tree -r master --name-only
+    puo = push -u origin
 
