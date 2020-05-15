@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/irateswami/.oh-my-zsh"
+export ZSH="/Users/bryanenglish/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -101,10 +101,10 @@ alias suua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias xc='xclip -sel clip <'
 alias v='nvim'
 
-export GOPATH=/home/irateswami/go
+export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/irateswami/.sdkman"
-[[ -s "/home/irateswami/.sdkman/bin/sdkman-init.sh" ]] && source "/home/irateswami/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/Users/bryanenglish/.sdkman"
+[[ -s "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh"
