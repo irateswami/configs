@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 alias suua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias xc='xclip -sel clip <'
 alias v='nvim'
+alias vim='nvim'
 
 export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
