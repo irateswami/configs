@@ -101,11 +101,11 @@ alias suua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias xc='xclip -sel clip <'
 alias v='nvim'
 alias vim='nvim'
+alias buu='brew update && brew upgrade'
 
 export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+export EDITOR=$V
+export VISUAL=$EDITOR
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/bryanenglish/.sdkman"
-[[ -s "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh"
