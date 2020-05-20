@@ -109,3 +109,7 @@ export PATH=$PATH:$GOBIN
 export EDITOR=$V
 export VISUAL=$EDITOR
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/bryanenglish/.sdkman"
+[[ -s "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh"
