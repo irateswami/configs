@@ -102,6 +102,7 @@ alias xc='xclip -sel clip <'
 alias v='nvim'
 alias vim='nvim'
 alias buu='brew update && brew upgrade'
+alias gbc='git branch | grep -v "master" | xargs git branch -D'
 
 export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
