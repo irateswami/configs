@@ -6,6 +6,7 @@ Plug 'https://github.com/altercation/vim-colors-solarized.git'
 Plug 'https://github.com/tpope/vim-vinegar.git'
 Plug 'https://github.com/preservim/nerdtree.git'
 Plug 'https://github.com/ycm-core/YouCompleteMe'
+Plug 'https://github.com/tpope/vim-fugitive'
 
 " Call that shizz
 call plug#end()
