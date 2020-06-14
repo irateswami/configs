@@ -103,6 +103,7 @@ alias v='nvim'
 alias vim='nvim'
 alias buu='brew update && brew upgrade'
 alias gbc='git branch | grep -v "master" | xargs git branch -D'
+alias uycm='python3 ~/.vim/plugged/YouCompleteMe/install.py --all'
 
 
 export GOPATH=/Users/bryanenglish/go
