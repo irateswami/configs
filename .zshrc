@@ -97,7 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias suua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias xc='xclip -sel clip <'
 alias v='nvim'
 alias vim='nvim'
@@ -105,13 +104,11 @@ alias buu='brew update && brew upgrade'
 alias gbc='git branch | grep -v "master" | xargs git branch -D'
 alias uycm='python3 ~/.vim/plugged/YouCompleteMe/install.py --all'
 
-
 export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 export EDITOR=$V
 export VISUAL=$EDITOR
-
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/bryanenglish/.sdkman"
