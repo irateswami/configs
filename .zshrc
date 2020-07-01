@@ -103,12 +103,21 @@ alias vim='nvim'
 alias buu='brew update && brew upgrade'
 alias gbc='git branch | grep -v "master" | xargs git branch -D'
 alias uycm='python3 ~/.vim/plugged/YouCompleteMe/install.py --all'
+alias goupdate='go get -u all'
+
+onport () { lsof -nP -iTCP:"$@" | grep listen; }
 
 export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 export EDITOR=$V
 export VISUAL=$EDITOR
+
+#Other stuff
+bindkey "˙" backward-word
+bindkey "¬" forward-word
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/bryanenglish/.sdkman"
