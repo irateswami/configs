@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 alias suua='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias xc='xclip -sel clip <'
 alias v='nvim'
+alias rf='redshift -O 4000'
 
 export GOPATH=/home/irateswami/go
 export GOBIN=$GOPATH/bin
