@@ -12,6 +12,7 @@ Plug 'https://github.com/tpope/vim-fugitive'
 call plug#end()
 
 set nocompatible
+set number
 set rnu
 syntax enable
 set background=dark

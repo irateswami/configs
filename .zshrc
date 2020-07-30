@@ -110,6 +110,7 @@ onport () { lsof -nP -iTCP:"$@" | grep listen; }
 export GOPATH=/Users/bryanenglish/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+export V=nvim
 export EDITOR=$V
 export VISUAL=$EDITOR
 
