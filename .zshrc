@@ -104,6 +104,7 @@ alias buu='brew update && brew upgrade'
 alias gbc='git branch | grep -v "master" | xargs git branch -D'
 alias uycm='python3 ~/.vim/plugged/YouCompleteMe/install.py --all'
 alias goupdate='go get -u all'
+alias tci='transmission-remote'
 
 onport () { lsof -nP -iTCP:"$@" | grep listen; }
 
