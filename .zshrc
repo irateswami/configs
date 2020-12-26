@@ -68,7 +68,7 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,7 +104,11 @@ alias buu='brew update && brew upgrade'
 alias gbc='git branch | grep -v "master" | xargs git branch -D'
 alias uycm='python3 ~/.vim/plugged/YouCompleteMe/install.py --all'
 alias goupdate='go get -u all'
-alias tci='transmission-remote'
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
 onport () { lsof -nP -iTCP:"$@" | grep listen; }
 
@@ -124,3 +128,4 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/bryanenglish/.sdkman"
 [[ -s "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/bryanenglish/.sdkman/bin/sdkman-init.sh"
+export PATH="/usr/local/opt/go@1.14/bin:$PATH"
